@@ -1,0 +1,288 @@
+header{
+    padding-top: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-left{
+    margin: 20px 20px 0px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+}
+
+.header-right{
+    margin: 70px 20px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0px;
+}
+
+
+.kv {
+    background-image: url(./1845-scaled.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.main-title{
+    font-size: 50px;
+    color: rgb(14, 2, 2);
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    
+}
+
+/* セクション１説明文 */
+
+.main-box{
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 30px;
+    border: 1px solid black;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 64px;
+    margin-bottom: 100px;
+}
+.main-box img{
+    width: 20%;
+    height: 20%;
+}
+
+.main-text{
+    text-align:start;
+    /* width: 400px; */
+    padding: 50px 50px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+
+
+}
+
+
+/* スタート */
+
+.border1{
+    text-align: center;
+}
+
+.start{
+    padding: 50px 50px;
+    font-size: 125px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: cornflowerblue;
+    letter-spacing: 0.3em;
+    /* -webkit-text-stroke: 5px black; */
+}
+
+/* 広島本通 */
+
+.course1{
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 64px;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+.box{
+    position:relative;
+    overflow:hidden;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.box img{
+    width: 100%;
+    cursor: pointer;
+    position:absolute;
+  }
+
+.box img:last-child{
+    top: 100%;
+    transition: 0.3s;
+  }
+
+.box:hover img:last-child{
+    top:0;
+}
+
+.box1{
+    margin-top: 34px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 200px;
+    font-weight: bold;
+    background: linear-gradient(transparent 50%, #ddd 50%); 
+    width: 300px;
+}
+
+.section1 p{
+    font-size: 20px;
+    margin: 50px 60px;
+}
+
+.section1 p:nth-child(3){
+    text-align: end;
+    font-size: 20px;
+    color: rgb(116, 116, 109);
+}
+
+
+.yazirushi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.yazirushi img{
+    margin: 7px;
+    width: 15px;
+    height: 15px;
+}
+
+.yazirushi .idou1{
+    letter-spacing: 0.1em;
+    margin: 13px;
+    padding: 13px;
+    font-size: 25px;
+    font-weight: bold;
+    background: #fff;
+    border-top: 2px solid #1a1a1a;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.section1 p:nth-child(4){
+    text-align: start;
+    font-size: 20px;
+    color: rgb(116, 116, 109);
+}
+
+
+/* おりづるタワー */
+
+
+.course2{
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 64px;
+    max-width: 1200px;
+    margin-top: 50px;
+    height: 500px;
+
+}
+.section2 p{
+    font-size: 20px;
+}
+
+.oriduru{
+    margin: 50px;
+}
+
+.section2 p:last-child{
+    text-align: end;
+    font-size: 20px;
+    color: rgb(116, 116, 109);
+}
+
+
+.circle{
+    font-size: 40px;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* レスポンシブ対応 */
+
+@media screen and (max-width:767px) {
+    .header-left {
+        font-size: 20px;
+    }
+
+    .kv{
+        width: auto;
+        background-size: cover;
+    }
+    
+    .main-title{
+        font-size: 20px;
+    }
+
+    
+
+    .main-text{
+        font-size: px;
+    }
+
+    .start{
+        width: auto;
+    }
+
+    .course1{
+        width: 80%;
+    }
+
+    h2 .box1{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
