@@ -1,3 +1,6 @@
+*{
+    /* border: solid; */
+}
 header{
     padding-top: 80px;
     background-color: white;
@@ -30,6 +33,7 @@ header{
     background-size: cover;
     height: 100vh;
     position: relative;
+    max-width: 100%;
 }
 
 .main-title{
@@ -80,7 +84,7 @@ header{
 
 .start{
     padding: 50px 50px;
-    font-size: 125px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -99,6 +103,8 @@ header{
     border-radius: 64px;
     max-width: 1200px;
     margin-top: 50px;
+    height: 500px;
+
 }
 
 .box{
@@ -109,8 +115,8 @@ header{
     margin-top: 50px;
 }
 .box img{
-    width: 100%;
-    cursor: pointer;
+    max-width: 100%;
+    height: auto;
     position:absolute;
   }
 
@@ -124,7 +130,7 @@ header{
 }
 
 .box1{
-    margin-top: 34px;
+    margin-top: 80px;
     text-align: center;
     font-size: 40px;
     margin-left: 200px;
@@ -135,7 +141,7 @@ header{
 
 .section1 p{
     font-size: 20px;
-    margin: 50px 60px;
+    /* margin: 50px 60px; */
 }
 
 .section1 p:nth-child(3){
@@ -179,7 +185,7 @@ header{
 /* おりづるタワー */
 
 
-.course2{
+.course1{
     margin: 0 auto;
     display: flex;
     padding: 30px;
@@ -243,11 +249,31 @@ iframe{
     }
 
     .course1{
-        width: 80%;
+        flex-direction: column;
+    }
+
+    .course2{
+        display: block;
+
+    }
+
+    .box1{
+        margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    }
+
+    .course1 .box{
+        width: 60vw;
+        height: 50vh;
     }
 
     h2 .box1{
         font-size: 10px;
+    }
+
+    .box{
+        max-width: 100%;
     }
 
     p{
